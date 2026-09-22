@@ -1,0 +1,9 @@
+.header {
+    padding: 5rem;
+    color: rgb(249, 250, 251);
+    background-image: url("../../assets/headerbackground.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+  
