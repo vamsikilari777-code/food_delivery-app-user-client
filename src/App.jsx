@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import Menubar from "./components/Menubar/Menubar";
+import Navbar from "./components/Navbar/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
@@ -17,7 +17,7 @@ const App = () => {
   const { token } = useContext(StoreContext);
   return (
     <div>
-      <Menubar />
+      <Navbar />
       <ToastContainer />
       <Routes>
         <Route path="/" element={<Home />} />
